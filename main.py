@@ -16,6 +16,7 @@ from nltk import sent_tokenize, word_tokenize
 from rank_bm25 import BM25Okapi
 import nltk
 
+
 nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords', quiet = True)
 
